@@ -22,24 +22,24 @@
 		<Vaadin-Addon>${artifactId}-${project.version}.jar</Vaadin-Addon>
 	</properties>
 
-    <!--     
+	<!--
 	<organization>
-		<name>My Name</name>
-		<url>https://github.com/mygithubaccount/FullscreenButton/</url>
+		<name>Tilioteo Ltd</name>
+		<url>https://github.com/tilioteo/vbuttons/</url>
 	</organization>
-    
+
 	<scm>
-		<url>git://github.com/mygithubaccount/FullscreenButton.git</url>
-		<connection>scm:git:git://github.com/mygithubaccount/FullscreenButton.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:/mygithubaccount/${ComponentClassName}.git</developerConnection>
-		<tag>FullscreenButton add-on for Vaadin</tag>
+		<url>git://github.com/tilioteo/vbuttons.git</url>
+		<connection>scm:git:git://github.com/tilioteo/vbuttons.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:/tilioteo/${ComponentClassName}.git</developerConnection>
+		<tag>Buttons add-on for Vaadin</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/mygithubaccount/FullscreenButton/issues</url>
+		<url>https://github.com/tilioteo/vbuttons/issues</url>
 	</issueManagement>
-    -->
+	-->
 
 	<licenses>
 		<license>
@@ -129,7 +129,7 @@
 							<!-- Package format version - do not change -->
 							<Vaadin-Package-Version>1</Vaadin-Package-Version>
 							<Vaadin-License-Title>${Vaadin-License-Title}</Vaadin-License-Title>
-							<Vaadin-Widgetsets>org.vaadin.button.WidgetSet</Vaadin-Widgetsets>
+							<Vaadin-Widgetsets>org.vaadin.button.ButtonWidgetset</Vaadin-Widgetsets>
 						</manifestEntries>
 					</archive>
 				</configuration>
